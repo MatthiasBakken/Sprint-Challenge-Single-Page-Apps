@@ -1,0 +1,25 @@
+.episode-card_container {
+    width: 400px;
+    height: 300px;
+    background-color: aquamarine;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.episode-card_footer-nav {
+    display: flex;
+    justify-content: center;
+}
+.episode-card_footer-nav p {
+    font-size: 20px;
+    margin: 20px;
+    font-weight: bold;
+}
+.episode-card_footer-nav p:nth-child(1):hover {
+    cursor: pointer;
+    color: rgb(148, 59, 59);
+}
+.episode-card_footer-nav p:nth-child(3):hover {
+    cursor: pointer;
+    color: rgb(148, 59, 59);
+}

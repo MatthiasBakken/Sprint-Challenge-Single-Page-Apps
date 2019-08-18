@@ -4,7 +4,7 @@ import TabNav from './components/TabNav';
 import Header from './components/Header';
 import WelcomePage from './components/WelcomePage';
 import CharacterCard from './components/CharacterCard';
-import CharacterList from './components/CharacterList';
+import CharactersList from './components/CharactersList';
 import LocationsList from './components/LocationsList';
 import LocationCard from './components/LocationCard';
 import EpisodesList from './components/EpisodesList';
@@ -16,13 +16,14 @@ export default function App() {
       <Header />
       <TabNav />
       <Route exact path='/' component={WelcomePage} />
+      <Route path='/episodes-list' component={EpisodesList} />
     </main>
   );
 }
     
-//       <Route path='/characters-list' component={CharacterList} />
+//       <Route path='/characters-list' component={CharactersList} />
 //       <Route path='/character' component={CharacterCard} />
 //       <Route path='/locations-list' component={LocationsList} />
 //       <Route path='/location' component={LocationCard} />
-//       <Route path='/episodes-list' component={EpisodesList} />
+//       
 //       <Route path='/episode' component={Episode} />

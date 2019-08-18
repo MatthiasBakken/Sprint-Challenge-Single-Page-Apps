@@ -37,3 +37,7 @@ main {
 header h1 {
   text-align: center;
 }
+
+.welcome-page {
+  margin-top: 20px;
+}

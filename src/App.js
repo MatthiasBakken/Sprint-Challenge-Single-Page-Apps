@@ -16,12 +16,13 @@ export default function App() {
       <Header />
       <TabNav />
       <Route exact path='/' component={WelcomePage} />
-      <Route path='/characters-list' component={CharacterList} />
-      <Route path='/character' component={CharacterCard} />
-      <Route path='/locations-list' component={LocationsList} />
-      <Route path='/location' component={LocationCard} />
-      <Route path='/episodes-list' component={EpisodesList} />
-      <Route path='/episode' component={Episode} />
     </main>
   );
 }
+    
+//       <Route path='/characters-list' component={CharacterList} />
+//       <Route path='/character' component={CharacterCard} />
+//       <Route path='/locations-list' component={LocationsList} />
+//       <Route path='/location' component={LocationCard} />
+//       <Route path='/episodes-list' component={EpisodesList} />
+//       <Route path='/episode' component={Episode} />

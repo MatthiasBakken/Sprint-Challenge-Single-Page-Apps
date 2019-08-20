@@ -8,10 +8,6 @@ export default function EpisodeCard(props) {
     const [classFlip, setClassFlip] = useState(false)
 
     const { episode } = props;
-    console.log('one episode\' data', episode)
-    // useEffect(() => {
-    //     setChars(episode.chara)
-    // }, [])
 
     const fetchCharUrlHandler = () => {
         setClassFlip(!classFlip);
@@ -28,7 +24,7 @@ export default function EpisodeCard(props) {
     }
 
     return (
-        <div className={classNames({['flip-card']: classFlip})} onMouseLeave={mouseLeaveHandler}>
+        <div className={classNames({['flip-card']: classFlip, ['flip-card-default']: !classFlip})} onMouseLeave={mouseLeaveHandler}>
             <div className={classNames({['flip-card-inner']: classFlip})}>
                 <div className={classNames({['flip-card-front']: classFlip})}>
                     <h2>{episode.name}</h2>

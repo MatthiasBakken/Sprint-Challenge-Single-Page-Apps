@@ -1,0 +1,17 @@
+.character-card_footer-nav {
+    display: flex;
+    justify-content: center;
+}
+.character-card_footer-nav p {
+    font-size: 20px;
+    margin: 20px;
+    font-weight: bold;
+}
+.character-card_footer-nav p:nth-child(1):hover {
+    cursor: pointer;
+    color: rgb(148, 59, 59);
+}
+.character-card_footer-nav p:nth-child(3):hover {
+    cursor: pointer;
+    color: rgb(148, 59, 59);
+}

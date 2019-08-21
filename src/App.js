@@ -19,13 +19,8 @@ export default function App() {
       <Route path='/episodes-list' component={EpisodesList} />
       <Route path='/characters-list' component={CharactersList} />
       <Route path='/character' component={CharacterCard} />
+      <Route path='/locations-list' component={LocationsList} />
+      <Route path='/location' component={LocationCard} />
     </main>
   );
 }
-    
-//       
-//       
-//       <Route path='/locations-list' component={LocationsList} />
-//       <Route path='/location' component={LocationCard} />
-//       
-//       <Route path='/episode' component={Episode} />

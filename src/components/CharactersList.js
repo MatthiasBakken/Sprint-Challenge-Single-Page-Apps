@@ -35,7 +35,7 @@ export default function CharactersList() {
             return (
                 // render EpisodeCard component for every episode
                 // give each EpisodeCard the arr of character URLS
-                <CharacterCard key={character.name} character={character} />
+                <CharacterCard key={character.id} character={character} />
             )
         })}
         </section>

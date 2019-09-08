@@ -35,9 +35,7 @@ export default function EpisodesList() {
             return (
                 // render EpisodeCard component for every episode
                 // give each EpisodeCard the arr of character URLS
-                <div key={episode.episode} className={`${BASE_CLASS}container`}>
-                    <EpisodeCard key={episode.episode} episode={episode} className={`${BASE_CLASS}`} />
-                </div>
+                <EpisodeCard key={episode.episode} episode={episode} />
             )
         })}
         </section>
